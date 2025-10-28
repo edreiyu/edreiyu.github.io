@@ -3,12 +3,15 @@ project:
   output-dir: docs
 
 website:
-  title: "edreiyu.github.io"
+  title: "website title"
   navbar:
     left:
       - href: index.qmd
         text: Home
       - about.qmd
+      - href: shorts.qmd
+        text: Shorts
+      - Published works.qmd
 
 format:
   html:
