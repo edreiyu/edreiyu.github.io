@@ -2,4 +2,23 @@
 title: "About"
 ---
 
-About this site
+## About Me
+
+I'm a data analyst at the Congressional Policy and Budget Research Department of the Philippine House of Representatives.
+
+My work involves analyzing economic data, creating visualizations, and producing reports that help inform policy decisions.
+
+## Interests
+
+- Economic analysis
+- Data visualization
+- Open data and reproducible research
+- R and Python programming
+
+## Background
+
+Add your educational and professional background here.
+
+## Contact
+
+Feel free to reach out via [GitHub](https://github.com/edreiyu).

@@ -1,0 +1,13 @@
+---
+title: "Shorts"
+---
+
+## Quick Insights
+
+Short posts, notes, and quick takes on data analysis topics.
+
+### Topic 1
+Brief content here.
+
+### Topic 2
+Brief content here.

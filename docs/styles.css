@@ -1,1 +1,40 @@
-/* css styles */
+/* Custom styles for a cleaner look */
+
+/* Improve spacing and readability */
+.quarto-title-block {
+  margin-bottom: 2rem;
+}
+
+/* Make the main content area more readable */
+main {
+  max-width: 900px;
+}
+
+/* Style for project/post listings */
+h3 {
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  color: #2c3e50;
+}
+
+/* Better link styling */
+a {
+  text-decoration: none;
+  color: #2780e3;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Navbar improvements */
+.navbar {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+/* Footer spacing */
+footer {
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 1px solid #e0e0e0;
+}

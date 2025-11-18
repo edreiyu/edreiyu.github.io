@@ -1,9 +1,20 @@
 ---
-title: "edreiyu.github.io"
+title: "Welcome"
 ---
 
+# Hi, I'm Edrei
 
-# What do I do here?
-## This is a Quarto website.
+Data analyst at the Congressional Policy and Budget Research Department, Philippine House of Representatives.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+I focus on economic analysis and data visualization, making complex policy topics accessible through interactive visualizations and analytical reports.
+
+## What I Do
+
+- Economic policy analysis
+- Data visualization
+- Interactive dashboards
+- Research reports
+
+---
+
+Explore my [projects](/projects.html) or read my [shorts](/shorts.html) for quick insights.

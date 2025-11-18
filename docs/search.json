@@ -1,23 +1,191 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "edreiyu.github.io",
+    "objectID": "shorts.html",
+    "href": "shorts.html",
+    "title": "Shorts",
     "section": "",
-    "text": "To learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Short posts, notes, and quick takes on data analysis topics.\n\n\nBrief content here.\n\n\n\nBrief content here."
   },
   {
-    "objectID": "index.html#this-is-a-quarto-website.",
-    "href": "index.html#this-is-a-quarto-website.",
-    "title": "edreiyu.github.io",
+    "objectID": "shorts.html#quick-insights",
+    "href": "shorts.html#quick-insights",
+    "title": "Shorts",
     "section": "",
-    "text": "To learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Short posts, notes, and quick takes on data analysis topics.\n\n\nBrief content here.\n\n\n\nBrief content here."
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site"
+    "text": "I’m a data analyst at the Congressional Policy and Budget Research Department of the Philippine House of Representatives.\nMy work involves analyzing economic data, creating visualizations, and producing reports that help inform policy decisions."
+  },
+  {
+    "objectID": "about.html#about-me",
+    "href": "about.html#about-me",
+    "title": "About",
+    "section": "",
+    "text": "I’m a data analyst at the Congressional Policy and Budget Research Department of the Philippine House of Representatives.\nMy work involves analyzing economic data, creating visualizations, and producing reports that help inform policy decisions."
+  },
+  {
+    "objectID": "about.html#interests",
+    "href": "about.html#interests",
+    "title": "About",
+    "section": "Interests",
+    "text": "Interests\n\nEconomic analysis\nData visualization\nOpen data and reproducible research\nR and Python programming"
+  },
+  {
+    "objectID": "about.html#background",
+    "href": "about.html#background",
+    "title": "About",
+    "section": "Background",
+    "text": "Background\nAdd your educational and professional background here."
+  },
+  {
+    "objectID": "about.html#contact",
+    "href": "about.html#contact",
+    "title": "About",
+    "section": "Contact",
+    "text": "Contact\nFeel free to reach out via GitHub."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome",
+    "section": "",
+    "text": "Data analyst at the Congressional Policy and Budget Research Department, Philippine House of Representatives.\nI focus on economic analysis and data visualization, making complex policy topics accessible through interactive visualizations and analytical reports.\n\n\n\nEconomic policy analysis\nData visualization\nInteractive dashboards\nResearch reports\n\n\nExplore my projects or read my shorts for quick insights."
+  },
+  {
+    "objectID": "index.html#what-i-do",
+    "href": "index.html#what-i-do",
+    "title": "Welcome",
+    "section": "",
+    "text": "Economic policy analysis\nData visualization\nInteractive dashboards\nResearch reports\n\n\nExplore my projects or read my shorts for quick insights."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Add your projects here. You can organize them by category or chronologically.\n\n\nBrief description of your project.\n\n\n\nBrief description of your project."
+  },
+  {
+    "objectID": "projects.html#data-analysis-projects",
+    "href": "projects.html#data-analysis-projects",
+    "title": "Projects",
+    "section": "",
+    "text": "Add your projects here. You can organize them by category or chronologically.\n\n\nBrief description of your project.\n\n\n\nBrief description of your project."
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "List your published papers, reports, and other publications here.\n\n\n\nAdd your data analysis reports and studies."
+  },
+  {
+    "objectID": "publications.html#published-works",
+    "href": "publications.html#published-works",
+    "title": "Publications",
+    "section": "",
+    "text": "List your published papers, reports, and other publications here.\n\n\n\nAdd your data analysis reports and studies."
+  },
+  {
+    "objectID": "SETUP_GUIDE.html",
+    "href": "SETUP_GUIDE.html",
+    "title": "Quarto Website Setup Guide for GitHub Pages",
+    "section": "",
+    "text": "This guide documents how to create and publish a Quarto website on GitHub Pages.\n\n\n\nQuarto installed (download here)\nGit installed\nGitHub account\n\n\n\n\n\nGo to GitHub and create a new repository\nName it &lt;username&gt;.github.io (e.g., edreiyu.github.io)\nInitialize it (with or without README)\nClone the repository to your local machine:\ngit clone https://github.com/&lt;username&gt;/&lt;username&gt;.github.io.git\ncd &lt;username&gt;.github.io\n\n\n\n\n\n\nproject:\n  type: website\n  output-dir: docs\n\nwebsite:\n  title: \"Your Website Title\"\n  navbar:\n    left:\n      - href: index.qmd\n        text: Home\n      - about.qmd\n\nformat:\n  html:\n    theme:\n      - cosmo\n      - brand\n    css: styles.css\n    toc: true\nKey configuration: - output-dir: docs - GitHub Pages will serve from this folder - type: website - Tells Quarto this is a website project\n\n\n\n---\ntitle: \"Your Website Title\"\n---\n\n# Welcome to My Website\n\nThis is the home page content.\n\n## About This Site\n\nAdd your content here using Markdown.\n\n\n\n---\ntitle: \"About\"\n---\n\n## About Me\n\nAdd information about yourself here.\n\n\n\n/* Add custom CSS here */\n\n\n\n\nCreate an empty .nojekyll file in the root directory:\ntouch .nojekyll\nWhy? This tells GitHub Pages not to process your site with Jekyll, which is important for Quarto sites.\n\n\n\nRun Quarto to render your website:\nquarto render\nThis will create all HTML files in the docs/ directory.\n\n\n\ngit add .\ngit commit -m \"Initial Quarto website setup\"\ngit push origin main\n\n\n\n\nGo to your repository on GitHub\nClick Settings → Pages (in the left sidebar)\nUnder Source, select:\n\nBranch: main\nFolder: /docs\n\nClick Save\n\n\n\n\nAfter a few minutes, your website will be available at:\nhttps://&lt;username&gt;.github.io\n\n\n\nWhenever you want to update your website:\n\nEdit your .qmd files\nRun quarto render to rebuild\nCommit and push changes:\ngit add .\ngit commit -m \"Update content\"\ngit push origin main\n\n\n\n\n\nPreview locally: Run quarto preview to see changes before publishing\nAdd pages: Create new .qmd files and add them to _quarto.yml navbar\nThemes: Explore other Quarto themes\nAdvanced features: Add blog posts, custom layouts, and more using Quarto documentation\n\n\n\n\n\n\n\nMake sure you ran quarto render before pushing\nCheck GitHub Actions tab for build errors\nClear browser cache\n\n\n\n\n\nVerify GitHub Pages is set to serve from /docs folder\nEnsure .nojekyll file exists\nCheck that docs/ folder is committed to git\n\n\n\n\n\nCheck that site_libs/ folder is in docs/ directory\nVerify all files in docs/ are committed\n\n\n\n\n\nyour-repo/\n├── .nojekyll           # Prevents Jekyll processing\n├── _quarto.yml         # Main configuration\n├── index.qmd           # Home page\n├── about.qmd           # About page\n├── styles.css          # Custom CSS\n└── docs/               # Generated HTML (published to GitHub Pages)\n    ├── .nojekyll\n    ├── index.html\n    ├── about.html\n    ├── site_libs/\n    └── ...\n\n\n\n\nQuarto Websites\nGitHub Pages Documentation\nQuarto Publishing Guide"
+  },
+  {
+    "objectID": "SETUP_GUIDE.html#prerequisites",
+    "href": "SETUP_GUIDE.html#prerequisites",
+    "title": "Quarto Website Setup Guide for GitHub Pages",
+    "section": "",
+    "text": "Quarto installed (download here)\nGit installed\nGitHub account"
+  },
+  {
+    "objectID": "SETUP_GUIDE.html#step-1-create-a-github-repository",
+    "href": "SETUP_GUIDE.html#step-1-create-a-github-repository",
+    "title": "Quarto Website Setup Guide for GitHub Pages",
+    "section": "",
+    "text": "Go to GitHub and create a new repository\nName it &lt;username&gt;.github.io (e.g., edreiyu.github.io)\nInitialize it (with or without README)\nClone the repository to your local machine:\ngit clone https://github.com/&lt;username&gt;/&lt;username&gt;.github.io.git\ncd &lt;username&gt;.github.io"
+  },
+  {
+    "objectID": "SETUP_GUIDE.html#step-2-create-quarto-website-files",
+    "href": "SETUP_GUIDE.html#step-2-create-quarto-website-files",
+    "title": "Quarto Website Setup Guide for GitHub Pages",
+    "section": "",
+    "text": "project:\n  type: website\n  output-dir: docs\n\nwebsite:\n  title: \"Your Website Title\"\n  navbar:\n    left:\n      - href: index.qmd\n        text: Home\n      - about.qmd\n\nformat:\n  html:\n    theme:\n      - cosmo\n      - brand\n    css: styles.css\n    toc: true\nKey configuration: - output-dir: docs - GitHub Pages will serve from this folder - type: website - Tells Quarto this is a website project\n\n\n\n---\ntitle: \"Your Website Title\"\n---\n\n# Welcome to My Website\n\nThis is the home page content.\n\n## About This Site\n\nAdd your content here using Markdown.\n\n\n\n---\ntitle: \"About\"\n---\n\n## About Me\n\nAdd information about yourself here.\n\n\n\n/* Add custom CSS here */"
+  },
+  {
+    "objectID": "SETUP_GUIDE.html#step-3-add-.nojekyll-file",
+    "href": "SETUP_GUIDE.html#step-3-add-.nojekyll-file",
+    "title": "Quarto Website Setup Guide for GitHub Pages",
+    "section": "",
+    "text": "Create an empty .nojekyll file in the root directory:\ntouch .nojekyll\nWhy? This tells GitHub Pages not to process your site with Jekyll, which is important for Quarto sites."
+  },
+  {
+    "objectID": "SETUP_GUIDE.html#step-4-build-the-website",
+    "href": "SETUP_GUIDE.html#step-4-build-the-website",
+    "title": "Quarto Website Setup Guide for GitHub Pages",
+    "section": "",
+    "text": "Run Quarto to render your website:\nquarto render\nThis will create all HTML files in the docs/ directory."
+  },
+  {
+    "objectID": "SETUP_GUIDE.html#step-5-commit-and-push-to-github",
+    "href": "SETUP_GUIDE.html#step-5-commit-and-push-to-github",
+    "title": "Quarto Website Setup Guide for GitHub Pages",
+    "section": "",
+    "text": "git add .\ngit commit -m \"Initial Quarto website setup\"\ngit push origin main"
+  },
+  {
+    "objectID": "SETUP_GUIDE.html#step-6-enable-github-pages",
+    "href": "SETUP_GUIDE.html#step-6-enable-github-pages",
+    "title": "Quarto Website Setup Guide for GitHub Pages",
+    "section": "",
+    "text": "Go to your repository on GitHub\nClick Settings → Pages (in the left sidebar)\nUnder Source, select:\n\nBranch: main\nFolder: /docs\n\nClick Save"
+  },
+  {
+    "objectID": "SETUP_GUIDE.html#step-7-access-your-website",
+    "href": "SETUP_GUIDE.html#step-7-access-your-website",
+    "title": "Quarto Website Setup Guide for GitHub Pages",
+    "section": "",
+    "text": "After a few minutes, your website will be available at:\nhttps://&lt;username&gt;.github.io"
+  },
+  {
+    "objectID": "SETUP_GUIDE.html#making-updates",
+    "href": "SETUP_GUIDE.html#making-updates",
+    "title": "Quarto Website Setup Guide for GitHub Pages",
+    "section": "",
+    "text": "Whenever you want to update your website:\n\nEdit your .qmd files\nRun quarto render to rebuild\nCommit and push changes:\ngit add .\ngit commit -m \"Update content\"\ngit push origin main"
+  },
+  {
+    "objectID": "SETUP_GUIDE.html#tips",
+    "href": "SETUP_GUIDE.html#tips",
+    "title": "Quarto Website Setup Guide for GitHub Pages",
+    "section": "",
+    "text": "Preview locally: Run quarto preview to see changes before publishing\nAdd pages: Create new .qmd files and add them to _quarto.yml navbar\nThemes: Explore other Quarto themes\nAdvanced features: Add blog posts, custom layouts, and more using Quarto documentation"
+  },
+  {
+    "objectID": "SETUP_GUIDE.html#common-issues",
+    "href": "SETUP_GUIDE.html#common-issues",
+    "title": "Quarto Website Setup Guide for GitHub Pages",
+    "section": "",
+    "text": "Make sure you ran quarto render before pushing\nCheck GitHub Actions tab for build errors\nClear browser cache\n\n\n\n\n\nVerify GitHub Pages is set to serve from /docs folder\nEnsure .nojekyll file exists\nCheck that docs/ folder is committed to git\n\n\n\n\n\nCheck that site_libs/ folder is in docs/ directory\nVerify all files in docs/ are committed"
+  },
+  {
+    "objectID": "SETUP_GUIDE.html#project-structure",
+    "href": "SETUP_GUIDE.html#project-structure",
+    "title": "Quarto Website Setup Guide for GitHub Pages",
+    "section": "",
+    "text": "your-repo/\n├── .nojekyll           # Prevents Jekyll processing\n├── _quarto.yml         # Main configuration\n├── index.qmd           # Home page\n├── about.qmd           # About page\n├── styles.css          # Custom CSS\n└── docs/               # Generated HTML (published to GitHub Pages)\n    ├── .nojekyll\n    ├── index.html\n    ├── about.html\n    ├── site_libs/\n    └── ..."
+  },
+  {
+    "objectID": "SETUP_GUIDE.html#additional-resources",
+    "href": "SETUP_GUIDE.html#additional-resources",
+    "title": "Quarto Website Setup Guide for GitHub Pages",
+    "section": "",
+    "text": "Quarto Websites\nGitHub Pages Documentation\nQuarto Publishing Guide"
   }
 ]

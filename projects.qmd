@@ -1,0 +1,13 @@
+---
+title: "Projects"
+---
+
+## Data Analysis Projects
+
+Add your projects here. You can organize them by category or chronologically.
+
+### Project 1
+Brief description of your project.
+
+### Project 2
+Brief description of your project.

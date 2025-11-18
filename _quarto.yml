@@ -3,23 +3,27 @@ project:
   output-dir: docs
 
 website:
-  title: "website title"
+  title: "Your Name"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: about.qmd
+        text: About
+      - href: projects.qmd
+        text: Projects
       - href: shorts.qmd
         text: Shorts
-      - Published works.qmd
+      - href: publications.qmd
+        text: Publications
+    right:
+      - icon: github
+        href: https://github.com/edreiyu
+        aria-label: GitHub
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
+    theme: cosmo
     css: styles.css
     toc: true
-
-
-
+    page-layout: article
