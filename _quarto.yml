@@ -6,10 +6,9 @@ website:
   title: "Edrei Yu"
   navbar:
   logo: assets/logo sample.jpg
-  tools:
-    - icon: github
-      href: https://www.github.com/edreiyu
-      aria-label: GitHub
+ # tools:
+ #   - icon: github
+ #     href: https://www.github.com/edreiyu
     right:
       - href: index.qmd
         text: Home
@@ -21,9 +20,9 @@ website:
         text: Shorts
       - href: publications.qmd
         text: Publications
-  #  right:
-  #    - icon: github
-  #      href: https://github.com/edreiyu
+      - icon: github
+        href: https://github.com/edreiyu
+        aria-label: GitHub
         
 
 format:
