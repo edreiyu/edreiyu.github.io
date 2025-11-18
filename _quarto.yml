@@ -5,11 +5,7 @@ project:
 website:
   title: "Edrei Yu"
   navbar:
-  logo: assets/logo sample.jpg
- # tools:
- #   - icon: github
- #     href: https://www.github.com/edreiyu
-    right:
+   right:
       - href: index.qmd
         text: Home
       - href: about.qmd
