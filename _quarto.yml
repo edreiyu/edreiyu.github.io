@@ -3,9 +3,14 @@ project:
   output-dir: docs
 
 website:
-  title: "Your Name"
+  title: "Edrei Yu"
   navbar:
-    left:
+  logo: assets/logo sample.jpg
+  tools:
+    - icon: github
+      href: https://www.github.com/edreiyu
+      aria-label: GitHub
+    right:
       - href: index.qmd
         text: Home
       - href: about.qmd
@@ -16,10 +21,10 @@ website:
         text: Shorts
       - href: publications.qmd
         text: Publications
-    right:
-      - icon: github
-        href: https://github.com/edreiyu
-        aria-label: GitHub
+  #  right:
+  #    - icon: github
+  #      href: https://github.com/edreiyu
+        
 
 format:
   html:
