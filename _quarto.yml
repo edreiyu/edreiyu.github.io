@@ -5,7 +5,8 @@ project:
 website:
   title: "Edrei Yu"
   navbar:
-   right:
+    logo: assets/logo sample.jpg
+    right:
       - href: index.qmd
         text: Home
       - href: about.qmd
