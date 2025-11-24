@@ -5,7 +5,7 @@ categories: ["R", "Data Viz"]
 image: assets/projects/project1-thumb.jpg
 ---
 
-# Project 1 Interactive Demo
+## Interactive Demo
 
 This page showcases **client-side interactivity** using Plotly and DT.
 
@@ -26,3 +26,5 @@ p <- plot_ly(df, x = ~x, y = ~y, type = "scatter", mode = "lines+markers")
 datatable(df, options = list(pageLength = 5))
 
 ```
+
+This is an example.
