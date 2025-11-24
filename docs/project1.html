@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Welcome – Edrei Yu</title>
+<title>Project 1 Interactive Demo – Edrei Yu</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -93,7 +93,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -144,10 +144,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#hi-im-edrei" id="toc-hi-im-edrei" class="nav-link active" data-scroll-target="#hi-im-edrei">Hi, I’m Edrei</a>
-  <ul class="collapse">
-  <li><a href="#what-i-do" id="toc-what-i-do" class="nav-link" data-scroll-target="#what-i-do">What I Do</a></li>
-  </ul></li>
+  <li><a href="#project-1-interactive-demo" id="toc-project-1-interactive-demo" class="nav-link active" data-scroll-target="#project-1-interactive-demo">Project 1 Interactive Demo</a></li>
   </ul>
 </nav>
     </div>
@@ -156,7 +153,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Welcome</h1>
+<h1 class="title">Project 1 Interactive Demo</h1>
 </div>
 
 
@@ -173,23 +170,16 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="hi-im-edrei" class="level1">
-<h1>Hi, I’m Edrei</h1>
-<p>Data analyst at the Congressional Policy and Budget Research Department, Philippine House of Representatives.</p>
-<p>I focus on economic analysis and data visualization, making complex policy topics accessible through interactive visualizations and analytical reports.</p>
-<section id="what-i-do" class="level2">
-<h2 class="anchored" data-anchor-id="what-i-do">What I Do</h2>
-<ul>
-<li>Economic policy analysis</li>
-<li>Data visualization</li>
-<li>Interactive dashboards</li>
-<li>Research reports</li>
-</ul>
-<hr>
-<p>Explore my <a href="./projects.html">projects</a> or read my <a href="./shorts.html">shorts</a> for quick insights.</p>
+<section id="project-1-interactive-demo" class="level1">
+<h1>Project 1 Interactive Demo</h1>
+<p>This page showcases <strong>client-side interactivity</strong> using Plotly and DT.</p>
+<p>#| message: false #| warning: false</p>
+<p>library(plotly) library(DT)</p>
+<p>df &lt;- data.frame( x = 1:20, y = cumsum(rnorm(20)) )</p>
+<p>p &lt;- plot_ly(df, x = ~x, y = ~y, type = “scatter”, mode = “lines+markers”)</p>
+<p>datatable(df, options = list(pageLength = 5))</p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->

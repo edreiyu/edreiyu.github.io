@@ -63,6 +63,13 @@
     "text": "Economic policy analysis\nData visualization\nInteractive dashboards\nResearch reports\n\n\nExplore my projects or read my shorts for quick insights."
   },
   {
+    "objectID": "project1.html",
+    "href": "project1.html",
+    "title": "Project 1 Interactive Demo",
+    "section": "",
+    "text": "Project 1 Interactive Demo\nThis page showcases client-side interactivity using Plotly and DT.\n#| message: false #| warning: false\nlibrary(plotly) library(DT)\ndf &lt;- data.frame( x = 1:20, y = cumsum(rnorm(20)) )\np &lt;- plot_ly(df, x = ~x, y = ~y, type = “scatter”, mode = “lines+markers”)\ndatatable(df, options = list(pageLength = 5))"
+  },
+  {
     "objectID": "projects.html",
     "href": "projects.html",
     "title": "Projects",

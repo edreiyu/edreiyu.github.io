@@ -1,0 +1,24 @@
+---
+title: "Project 1 Interactive Demo"
+format: html
+---
+
+# Project 1 Interactive Demo
+
+This page showcases **client-side interactivity** using Plotly and DT.
+
+```{r}
+#| message: false
+#| warning: false
+
+library(plotly)
+library(DT)
+
+df <- data.frame(
+  x = 1:20,
+  y = cumsum(rnorm(20))
+)
+
+p <- plot_ly(df, x = ~x, y = ~y, type = "scatter", mode = "lines+markers")
+
+datatable(df, options = list(pageLength = 5))
