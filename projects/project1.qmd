@@ -24,3 +24,5 @@ df <- data.frame(
 p <- plot_ly(df, x = ~x, y = ~y, type = "scatter", mode = "lines+markers")
 
 datatable(df, options = list(pageLength = 5))
+
+```
