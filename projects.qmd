@@ -1,13 +1,15 @@
 ---
 title: "Projects"
+listing:
+  contents: "projects/*.qmd"      # automatically include all project pages
+  type: default                   # card-style project layout
+  sort: "date desc"               # newest projects first
+  categories: true                # show categories/tags from project pages
+  sort-ui: false                  # hide sort dropdown (optional)
 ---
 
 ## Data Analysis Projects
 
-Add your projects here. You can organize them by category or chronologically.
+Below is a collection of data analysis projects I’ve created.  
+Each project has its own dedicated page, which can be opened by clicking its card.
 
-### Project 1
-Brief description of your project.
-
-### Project 2
-Brief description of your project.

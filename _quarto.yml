@@ -11,12 +11,8 @@ website:
         text: Home
       - href: about.qmd
         text: About
-      - text: Projects
-        menu: 
-          - href: projects.qmd
-            text: Overview
-          - href: project1.qmd
-            text: Project 1 Interactive
+      - href: projects.qmd
+        text: Projects
       - href: shorts.qmd
         text: Shorts
       - href: publications.qmd

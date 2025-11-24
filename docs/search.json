@@ -63,8 +63,8 @@
     "text": "Economic policy analysis\nData visualization\nInteractive dashboards\nResearch reports\n\n\nExplore my projects or read my shorts for quick insights."
   },
   {
-    "objectID": "project1.html",
-    "href": "project1.html",
+    "objectID": "projects/project1.html",
+    "href": "projects/project1.html",
     "title": "Project 1 Interactive Demo",
     "section": "",
     "text": "Project 1 Interactive Demo\nThis page showcases client-side interactivity using Plotly and DT.\n#| message: false #| warning: false\nlibrary(plotly) library(DT)\ndf &lt;- data.frame( x = 1:20, y = cumsum(rnorm(20)) )\np &lt;- plot_ly(df, x = ~x, y = ~y, type = “scatter”, mode = “lines+markers”)\ndatatable(df, options = list(pageLength = 5))"
@@ -74,14 +74,14 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Add your projects here. You can organize them by category or chronologically.\n\n\nBrief description of your project.\n\n\n\nBrief description of your project."
+    "text": "Below is a collection of data analysis projects I’ve created.\nEach project has its own dedicated page, which can be opened by clicking its card."
   },
   {
     "objectID": "projects.html#data-analysis-projects",
     "href": "projects.html#data-analysis-projects",
     "title": "Projects",
     "section": "",
-    "text": "Add your projects here. You can organize them by category or chronologically.\n\n\nBrief description of your project.\n\n\n\nBrief description of your project."
+    "text": "Below is a collection of data analysis projects I’ve created.\nEach project has its own dedicated page, which can be opened by clicking its card."
   },
   {
     "objectID": "publications.html",

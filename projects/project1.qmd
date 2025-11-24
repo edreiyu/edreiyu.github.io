@@ -1,6 +1,8 @@
 ---
 title: "Project 1 Interactive Demo"
-format: html
+date: 2025-11-01
+categories: ["R", "Data Viz"]
+image: assets/projects/project1-thumb.jpg
 ---
 
 # Project 1 Interactive Demo
